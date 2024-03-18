@@ -62,6 +62,10 @@ bar:
     - type: "window title"
   components_right:
     - type: "system tray"
+    - type: "cpu"
+      label: "CPU: {percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
     - type: "memory"
       label: "RAM: {percent_usage}%"
       # How often this counter is refreshed.
