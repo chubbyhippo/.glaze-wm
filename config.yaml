@@ -62,6 +62,10 @@ bar:
     - type: "window title"
   components_right:
     - type: "system tray"
+    - type: "battery"
+      label_draining: "{battery_level}% remaining"
+      label_power_saver: "{battery_level}% (power saver)"
+      label_charging: "{battery_level}% (charging)"
     - type: "tiling direction"
       label_horizontal: "⮂"
       label_vertical: "⮁"
