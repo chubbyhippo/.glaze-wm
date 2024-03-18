@@ -66,6 +66,10 @@ bar:
       label: "RAM: {percent_usage}%"
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
+    - type: "gpu"
+      label: "GPU: {percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
     - type: "battery"
       label_draining: "{battery_level}% remaining"
       label_power_saver: "{battery_level}% (power saver)"
