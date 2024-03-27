@@ -210,18 +210,12 @@ keybindings:
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec cmd"
-    binding: "Alt+Enter"
+  - command: "exec wt"
+    binding: "Alt+T"
 
   # Focus the workspace that last had focus.
   - command: "focus workspace recent"
     binding: "Alt+Y"
-
-  # Focus the next/previous workspace defined in `workspaces` config.
-  - command: "focus workspace next"
-    binding: "Alt+T"
-  - command: "focus workspace prev"
-    binding: "Alt+Shift+T"
 
   # Change focus to a workspace defined in `workspaces` config.
   - command: "focus workspace 1"
