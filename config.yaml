@@ -161,18 +161,6 @@ keybindings:
   - command: "move down"
     bindings: ["Alt+Shift+J", "Alt+Shift+Down"]
 
-  # Resize focused window by a percentage or pixel amount.
-  - command: "resize width -2%"
-    binding: "Alt+-"
-  - command: "resize width +2%"
-    binding: "Alt+="
-  - command: "resize height -2%"
-    binding: "Alt+Shift+-"
-  - command: "resize height +2%"
-    binding: "Alt+Shift+="
-
-  # As an alternative to the resize keybindings above, resize mode enables resizing via
-  # HJKL or arrow keys. The binding mode is defined above with the name "resize".
   - command: "binding mode resize"
     binding: "Alt+R"
 
