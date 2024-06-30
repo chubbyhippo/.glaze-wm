@@ -176,10 +176,6 @@ keybindings:
   - command: "toggle floating"
     binding: "Alt+Shift+Space"
 
-  # Change the focused window to be maximized / unmaximized.
-  - command: "toggle maximized"
-    binding: "Alt+X"
-
   # Minimize focused window.
   - command: "set minimized"
     binding: "Alt+M"
